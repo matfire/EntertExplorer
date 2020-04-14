@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    @apply bg-blue-dark;
+}
+
+.moviecard :hover{
+    cursor: pointer;
+}
+
+.header {
+    @apply bg-white-dark;
+}
+
+.header-title {
+    color: theme('colors.white.default')
+
+}
+
+.movie-details {
+    color: theme("colors.white.default");
+}
