@@ -1,11 +1,11 @@
 import Plyr from 'react-plyr';
 
-const VideoComponent = ({id, key, name, site}) => {
+const VideoComponent = ({id, videoId, name, site}) => {
 	return (
 	<div>
 		<Plyr
 			type={site.toLowerCase()}
-			videoId={key} />
+			videoId={videoId} />
 	</div>
 	)
 }
