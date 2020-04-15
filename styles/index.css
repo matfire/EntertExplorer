@@ -24,3 +24,18 @@ body {
 .movie-details {
     color: theme("colors.white.default");
 }
+
+.movie-details-background {
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    position: fixed; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+   background: url(https://image.tmdb.org/t/p/original/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg) no-repeat center top;
+}
+
